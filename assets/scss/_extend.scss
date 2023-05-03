@@ -1,0 +1,12 @@
+/* Common transition Style */
+%transition{
+    transition: all linear .3s;
+}
+/* Common link Style */
+%link{
+    &:hover,
+    &:focus{
+        color: $color-primary;
+        text-decoration: underline;
+    }
+}
